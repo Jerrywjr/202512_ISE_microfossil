@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="Page-1" id="wDpt3JYICCB1RRWD3EpT">
-    <mxGraphModel>
+    <mxGraphModel dx="946" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TLlY4ARise6LRqp6n3U0-1" parent="1" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontSize=20;" value="诊断报告" vertex="1">
+          <mxGeometry height="100" width="100" x="220" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="TLlY4ARise6LRqp6n3U0-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" value="问题分类" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TLlY4ARise6LRqp6n3U0-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" value="策略匹配" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TLlY4ARise6LRqp6n3U0-7" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=20;" value="可执行收集指令" vertex="1">
+          <mxGeometry height="80" width="120" x="520" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="TLlY4ARise6LRqp6n3U0-8" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0.5;" value="" vertex="1">
+          <mxGeometry height="130" width="40" x="320" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TLlY4ARise6LRqp6n3U0-9" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="130" width="30" x="480" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TLlY4ARise6LRqp6n3U0-10" edge="1" parent="1" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="345" as="sourcePoint" />
+            <mxPoint x="280" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLlY4ARise6LRqp6n3U0-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="401" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="TLlY4ARise6LRqp6n3U0-12" edge="1" parent="1" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TLlY4ARise6LRqp6n3U0-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="120" as="sourcePoint" />
+            <mxPoint x="410" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLlY4ARise6LRqp6n3U0-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="402" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TLlY4ARise6LRqp6n3U0-14" edge="1" parent="1" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="400" as="sourcePoint" />
+            <mxPoint x="420" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLlY4ARise6LRqp6n3U0-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="403" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="TLlY4ARise6LRqp6n3U0-16" edge="1" parent="1" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="335" as="sourcePoint" />
+            <mxPoint x="630" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLlY4ARise6LRqp6n3U0-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="404" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="315" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
