@@ -4,16 +4,16 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="[S401] 输入:&amp;nbsp;&lt;div&gt;高保真代理决策树&lt;/div&gt;" vertex="1">
+        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="[S501] 输入:&amp;nbsp;&lt;div&gt;高保真代理决策树&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="190" x="330" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="[S402] 遍历决策树，&lt;div&gt;提取所有决策路径规则&lt;/div&gt;" vertex="1">
+        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="[S502] 遍历决策树，&lt;div&gt;提取所有决策路径规则&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="170" x="340" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="[S403] 计算每条规则的关键指标&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(深度、覆盖率、置信度)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="[S503] 计算每条规则的关键指标&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(深度、覆盖率、置信度)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="320" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-4" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;div&gt;[S404] 初步筛选: 规则深度 ≤ D1 且 覆盖率 ≥ C1?&lt;/div&gt;&lt;div&gt;(D1, C1 为预设阈值)&lt;/div&gt;" vertex="1">
+        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-4" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;div&gt;[S504] 初步筛选: 规则深度 ≤ D1 且 覆盖率 ≥ C1?&lt;/div&gt;&lt;div&gt;(D1, C1 为预设阈值)&lt;/div&gt;" vertex="1">
           <mxGeometry height="170" width="240" x="305" y="650" as="geometry" />
         </mxCell>
         <mxCell id="OwGxUbEGvSJ9hv0ctfqB-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -40,13 +40,13 @@
         <mxCell id="OwGxUbEGvSJ9hv0ctfqB-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[标记为&quot;可疑捷径规则&quot;]" vertex="1">
           <mxGeometry height="30" width="145" x="550" y="770" as="geometry" />
         </mxCell>
-        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;[S405] 域知识辅助的语义分析:&lt;/div&gt;&lt;div&gt;- 规则依赖的特征是否与任务语义相关？&lt;/div&gt;&lt;div&gt;- 特征是否可能为数据集特有伪相关？&lt;/div&gt;" vertex="1">
+        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;[S505] 域知识辅助的语义分析:&lt;/div&gt;&lt;div&gt;- 规则依赖的特征是否与任务语义相关？&lt;/div&gt;&lt;div&gt;- 特征是否可能为数据集特有伪相关？&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="240" x="705" y="700" as="geometry" />
         </mxCell>
-        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-14" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;[S406] (可选)规则鲁棒性验证:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 对规则关键特征施加扰动&lt;/div&gt;&lt;div&gt;- 观察黑盒模型预测是否剧烈变化&lt;/div&gt;" vertex="1">
+        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-14" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;[S506] (可选)规则鲁棒性验证:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 对规则关键特征施加扰动&lt;/div&gt;&lt;div&gt;- 观察黑盒模型预测是否剧烈变化&lt;/div&gt;" vertex="1">
           <mxGeometry height="190" width="190" x="730" y="455" as="geometry" />
         </mxCell>
-        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-17" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="[S407] 生成并输出&quot;潜在捷径规则列表&quot;检测报告" vertex="1">
+        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-17" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="[S507] 生成并输出&quot;潜在捷径规则列表&quot;检测报告" vertex="1">
           <mxGeometry height="100" width="150" x="750" y="310" as="geometry" />
         </mxCell>
         <mxCell id="OwGxUbEGvSJ9hv0ctfqB-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -84,6 +84,9 @@
             <mxPoint x="418" y="367" as="sourcePoint" />
             <mxPoint x="418" y="407" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OwGxUbEGvSJ9hv0ctfqB-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="730" width="750" x="250" y="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
