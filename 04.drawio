@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="Page-1" id="dpNKplqF5DZ7czD8IpaD">
-    <mxGraphModel dx="946" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-pQKlH4HmZiQn1Gp2OLw-1" parent="1" style="swimlane;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;sortEdges=1;resizable=0;containerType=tree;fontSize=12;" value="" vertex="1">
-          <mxGeometry height="360" width="425" x="180" y="170" as="geometry" />
+          <mxGeometry height="450" width="570" x="180" y="170" as="geometry" />
         </mxCell>
         <mxCell id="-pQKlH4HmZiQn1Gp2OLw-2" parent="-pQKlH4HmZiQn1Gp2OLw-1" style="whiteSpace=wrap;html=1;" value="Root" vertex="1">
           <mxGeometry height="40" width="100" x="200" y="120" as="geometry" />
@@ -46,34 +46,76 @@
         <mxCell id="-pQKlH4HmZiQn1Gp2OLw-14" parent="-pQKlH4HmZiQn1Gp2OLw-1" style="whiteSpace=wrap;html=1;" value="Grandchild 3" vertex="1">
           <mxGeometry height="40" width="100" x="305" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-40" parent="-pQKlH4HmZiQn1Gp2OLw-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;[S601] 输入: 剪枝前的高保真决策树 (复杂)&lt;/div&gt;&lt;div&gt;(节点众多，结构深邃，保真度高但难以理解)&lt;/div&gt;" vertex="1">
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-40" parent="-pQKlH4HmZiQn1Gp2OLw-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;[S401] 输入: 剪枝前的高保真决策树 (复杂)&lt;/div&gt;&lt;div&gt;(节点众多，结构深邃，保真度高但难以理解)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="250" x="20" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-41" edge="1" parent="-pQKlH4HmZiQn1Gp2OLw-1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="[S602] 提取所有&lt;div&gt;决策规则并&lt;/div&gt;&lt;div&gt;按覆盖率&lt;/div&gt;&lt;div&gt;降序排序&lt;/div&gt;">
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-41" edge="1" parent="-pQKlH4HmZiQn1Gp2OLw-1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="[S402] 提取所有&lt;div&gt;决策规则并&lt;/div&gt;&lt;div&gt;按覆盖率&lt;/div&gt;&lt;div&gt;降序排序&lt;/div&gt;">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="50" y="120" as="sourcePoint" />
             <mxPoint x="50" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-42" parent="-pQKlH4HmZiQn1Gp2OLw-1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="210" width="20" x="410" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-51" edge="1" parent="-pQKlH4HmZiQn1Gp2OLw-1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="400" as="sourcePoint" />
+            <mxPoint x="310" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-49" parent="-pQKlH4HmZiQn1Gp2OLw-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[S404] Top-k 剪枝核心操作: 仅保留排序后前k条规则对应的分支结构" vertex="1">
+          <mxGeometry height="30" width="410" x="45" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-52" edge="1" parent="-pQKlH4HmZiQn1Gp2OLw-1" style="endArrow=classic;html=1;rounded=0;" target="-pQKlH4HmZiQn1Gp2OLw-53" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="475" y="410" as="sourcePoint" />
+            <mxPoint x="525" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-55" parent="-pQKlH4HmZiQn1Gp2OLw-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;[S403] 设定&lt;/div&gt;&lt;div&gt;复杂度参数&lt;/div&gt;&lt;div&gt;(例如: k=3)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="430" y="210" as="geometry" />
+        </mxCell>
         <mxCell id="-pQKlH4HmZiQn1Gp2OLw-27" parent="1" style="swimlane;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;sortEdges=1;resizable=0;containerType=tree;fontSize=12;" value="" vertex="1">
-          <mxGeometry height="280" width="140" x="600" y="170" as="geometry" />
+          <mxGeometry height="450" width="230" x="750" y="170" as="geometry" />
         </mxCell>
         <mxCell id="-pQKlH4HmZiQn1Gp2OLw-28" parent="-pQKlH4HmZiQn1Gp2OLw-27" style="whiteSpace=wrap;html=1;" value="Root" vertex="1">
-          <mxGeometry height="40" width="100" x="20" y="40" as="geometry" />
+          <mxGeometry height="40" width="100" x="65" y="40" as="geometry" />
         </mxCell>
         <mxCell id="-pQKlH4HmZiQn1Gp2OLw-29" parent="-pQKlH4HmZiQn1Gp2OLw-27" style="whiteSpace=wrap;html=1;" value="Child 1" vertex="1">
-          <mxGeometry height="40" width="100" x="20" y="130" as="geometry" />
+          <mxGeometry height="40" width="100" x="65" y="130" as="geometry" />
         </mxCell>
         <mxCell id="-pQKlH4HmZiQn1Gp2OLw-30" edge="1" parent="-pQKlH4HmZiQn1Gp2OLw-27" source="-pQKlH4HmZiQn1Gp2OLw-28" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" target="-pQKlH4HmZiQn1Gp2OLw-29" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-pQKlH4HmZiQn1Gp2OLw-35" edge="1" parent="-pQKlH4HmZiQn1Gp2OLw-27" source="-pQKlH4HmZiQn1Gp2OLw-29" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" target="-pQKlH4HmZiQn1Gp2OLw-36" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="12" y="360" as="sourcePoint" />
+            <mxPoint x="57" y="360" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-pQKlH4HmZiQn1Gp2OLw-36" parent="-pQKlH4HmZiQn1Gp2OLw-27" style="whiteSpace=wrap;html=1;" value="Grandchild 2" vertex="1">
-          <mxGeometry height="40" width="100" x="20" y="220" as="geometry" />
+          <mxGeometry height="40" width="100" x="65" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-53" parent="-pQKlH4HmZiQn1Gp2OLw-27" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[S405] 输出:&amp;nbsp;&lt;div&gt;剪枝后的低复杂度决策树 (简洁)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;(仅包含核心分支，易于理解，保真度略有损失但仍在高位)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="190" x="20" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-50" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="575" as="sourcePoint" />
+            <mxPoint x="300" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="170" width="800" x="180" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-80" parent="1" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&lt;ul&gt;&lt;li&gt;剪枝前&lt;/li&gt;&lt;li&gt;保真度: 0.995&lt;/li&gt;&lt;li&gt;节点数: 500&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="570" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-81" parent="1" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&lt;ul&gt;&lt;li&gt;剪枝后&lt;/li&gt;&lt;li&gt;保真度: 0.985&lt;/li&gt;&lt;li&gt;节点数: 10&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="810" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-82" parent="1" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="[S606] 效果对比验证:" vertex="1">
+          <mxGeometry height="80" width="130" x="425" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
