@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="C70WgCVX7cSAdKuD4m70">
+    <mxGraphModel dx="946" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="590" width="660" x="100" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="190" width="340" x="110" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[区域601] 信任报告头 &amp;amp; 模型性能概览" vertex="1">
+          <mxGeometry height="30" width="250" x="155" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;模型: 1D-CNN&lt;/div&gt;&lt;div&gt;数据集: ISCX-VPN&lt;/div&gt;&lt;div&gt;黑盒准确率: 99.9%&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;代理树保真度:1.0&lt;/div&gt;&lt;div&gt;树复杂度: 低&lt;/div&gt;&lt;div&gt;(节点: 3)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="210" x="175" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[区域602] 高保真代理决策树 (Top-k 路径)" vertex="1">
+          <mxGeometry height="60" width="240" x="165" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="250" width="340" x="110" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="[根节点: B49 &amp;lt;= 17.0]" vertex="1">
+          <mxGeometry height="40" width="120" x="220" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/&lt;div&gt;[VPN: 90%]&lt;div&gt;｜&lt;/div&gt;&lt;div&gt;[B43 &amp;gt; 10]&amp;nbsp;&lt;/div&gt;&lt;div&gt;｜&lt;/div&gt;&lt;div&gt;[VPN: 99%]&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="125" x="150" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="\&lt;br&gt;&lt;div&gt;[非VPN: 95%]&lt;div&gt;｜&lt;/div&gt;&lt;div&gt;[B47 &amp;lt;= 33]&amp;nbsp;&lt;/div&gt;&lt;div&gt;｜&lt;/div&gt;&lt;div&gt;[非VPN: 99.5%]&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="125" x="290" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[区域603] 归纳偏差检测摘要" vertex="1">
+          <mxGeometry height="30" width="180" x="520" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;⚠️ 捷径学习检测: 发现&lt;/div&gt;&lt;div&gt;规则: IF (B49&amp;lt;=17)...&lt;/div&gt;&lt;div&gt;风险: 高&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;❓ 伪相关性检测: 可能&lt;/div&gt;&lt;div&gt;特征: B49, B43&lt;/div&gt;&lt;div&gt;理由: 语义不符&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="260" x="480" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="210" width="290" x="460" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[区域504] 关键特征分析" vertex="1">
+          <mxGeometry height="30" width="170" x="525" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;div&gt;特征 B49 分布&lt;/div&gt;&lt;div&gt;箱线图: VPN/非VPN&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;div&gt;特征 B43 分布&lt;/div&gt;&lt;div&gt;箱线图: VPN/非VPN&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="REnx5cPRYpAVHAv6_DDe-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;[元素505] 总体信任度评分: 中等 [★★★☆☆]&lt;/div&gt;&lt;div&gt;结论: 模型性能优异但存在高风险捷径，建议审查数据特征语义。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="480" x="190" y="610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
