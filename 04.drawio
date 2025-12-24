@@ -106,16 +106,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-pQKlH4HmZiQn1Gp2OLw-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="170" width="800" x="180" y="620" as="geometry" />
+          <mxGeometry height="110" width="800" x="180" y="620" as="geometry" />
         </mxCell>
         <mxCell id="-pQKlH4HmZiQn1Gp2OLw-80" parent="1" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&lt;ul&gt;&lt;li&gt;剪枝前&lt;/li&gt;&lt;li&gt;保真度: 0.995&lt;/li&gt;&lt;li&gt;节点数: 500&lt;/li&gt;&lt;/ul&gt;" vertex="1">
-          <mxGeometry height="80" width="130" x="570" y="680" as="geometry" />
+          <mxGeometry height="80" width="130" x="515" y="640" as="geometry" />
         </mxCell>
         <mxCell id="-pQKlH4HmZiQn1Gp2OLw-81" parent="1" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&lt;ul&gt;&lt;li&gt;剪枝后&lt;/li&gt;&lt;li&gt;保真度: 0.985&lt;/li&gt;&lt;li&gt;节点数: 10&lt;/li&gt;&lt;/ul&gt;" vertex="1">
-          <mxGeometry height="80" width="130" x="810" y="680" as="geometry" />
+          <mxGeometry height="80" width="130" x="660" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-82" parent="1" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="[S606] 效果对比验证:" vertex="1">
-          <mxGeometry height="80" width="130" x="425" y="680" as="geometry" />
+        <mxCell id="-pQKlH4HmZiQn1Gp2OLw-82" parent="1" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="[S406] 效果对比验证:" vertex="1">
+          <mxGeometry height="80" width="130" x="360" y="640" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
